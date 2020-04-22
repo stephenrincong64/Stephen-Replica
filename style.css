@@ -6,8 +6,42 @@
     
     
     body{
-    background-color:white;
+    background-color: #F1F1F1;
     }
+
+.carrito
+{border-left: 2px solid #d8d8d8; 
+    padding: 0.5em;
+    
+}
+
+
+.IDIOMA a:hover,a:visited
+{COLOR : #58a573;
+ text-decoration:underline;  
+
+}
+
+.IDIOMA1 a:hover,a:visited
+{COLOR : #58a573;
+ text-decoration:underline;  
+
+}
+
+
+div .IDIOMA a
+{text-decoration: none ;
+    color: rgb(63, 59, 59);
+letter-spacing:1px ;
+
+
+}
+
+div .IDIOMA1 a
+{text-decoration: none  ;
+color: #58a573;
+letter-spacing:1px
+}
 
 
 
@@ -15,10 +49,9 @@
 {width: 1349px;
 height: 9509.61px;
 
-margin: 0.5em auto;
+margin: 0.2em auto;
 
-background-image: url("modulos-web-hero-bg-flip.jpg");
-background-repeat: no-repeat;
+background-color: #F1F1F1;
 
 /*float: center;*/
 display: flex;
@@ -26,6 +59,7 @@ flex-direction: row;
 /*justify-content: center;*/
 flex-wrap: wrap;
 justify-content: space-around;
+ 
 
 }
 
@@ -37,7 +71,7 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0em;
+    margin-bottom: 0em;
 }
 .nav
 {background: #F1F1F1;
@@ -45,35 +79,42 @@ justify-content: space-around;
     width:1146.64px;
 display: flex;
 align-items:center ;
-justify-content: space-between;
+justify-content: space-around;
 
 
 
    }
 
-ul.left
+.left
 {background: transparent;
     height: 37.5px;
     width:413.94px;
+    
 
 
 }
 
-div.center
-{background:transparent;
-    height: 53.97px;
-    width:225px;
-
-
-}
-ul.right
+.center
 {background: transparent;
+    height: 53.97px;
+    width:410px;
+
+
+}
+
+
+
+
+.right
+{background:transparent;
     height: 24px;
-    width:413.94px;
+    width:180px;
     display: flex;
+    
 align-items:center ;
 flex-direction: row;
 flex-flow: row-reverse;
+justify-content: space-between;
 
 
 }
@@ -82,39 +123,331 @@ flex-flow: row-reverse;
     height: 8500px;
     display: flex;
 flex-direction: column;
-align-items: center;
+
 background-color: transparent;
+display: flex;
+flex-direction: row;
+
+flex-wrap: wrap;
+justify-content: space-around;
+
 
 
 }
+
+.background
+{width:   1349px;
+height: 867.94px;
+background-image: url("modulos-web-hero-bg-flip.jpg");
+background-size:134% ;
+background-repeat: no-repeat;
+background-position: top;
+padding-left: 2em;
+padding-top: 0em;
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+margin-top:0px ;
+margin-bottom: 0px;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 0px ;}
 
 #contenido1
 {width: 1349px;
 height: 736.69px;
 background-color: transparent;
 opacity: 100;
-margin-bottom:1em ;
-margin-top: 0;
-padding: 1.25rem 0 0;
+margin-bottom:0.5em ;
+margin-top: 0em;
+padding: 0.25rem 0 0;
+display: flex;
+
+
+
 }
+.main
+{width: 1146.64px;
+height: 717.94px;
+background-color: transparent;
+display: flex;
+align-items: flex-end;
+align-content: center;
+
+justify-content: center;}
+
+
+.ladoiz
+{width: 487.5px;
+height: 717.94px;
+background-color: transparent;
+float: left;
+
+}
+
+.superior
+{width: 487.5px;
+height: 292px;}
+
+.cuadro1
+{width: 460.97px;
+height: 144px;
+font-size: 3.4rem;
+font-weight: 800;
+margin: 0em;
+font-family: "cuadrosup";
+
+}
+@font-face
+{font-family: "cuadrosup";
+src: url(Muli-VariableFont_wght.ttf);
+font-style: normal;
+font-weight: 800;
+}
+
+.cuadro2
+{width: 466.53px;
+height: 144px;
+font-size: 3em;
+font-size: 3.4rem;
+font-weight: 800;
+margin: 0em;
+font-family: "cuadrosup";
+}
+
+
+ .subrayado
+ {text-decoration: underline  #58a573 solid ;
+}  
+   
+
+
+.cuadro3
+{width: 487.5px;
+height: 48.75px;
+font-size: 1.2rem;
+font-weight: 800;
+display: flex;
+align-items: flex-end ;
+padding-bottom: 1.25rem;
+margin-bottom: 1.25rem;
+position: relative;
+font-family: "cuadrosup";
+border-bottom: 3px solid #58a573 ;
+}
+
+.cuadro4
+{width: 487.5px;
+height: 88px;
+background: transparent;
+line-height: 160%;
+
+font-size: .9375rem;
+font-weight: 200;
+color: rgba(0,0,0,.87);;
+font-family: 'Muli', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
+
+.cuadro5
+{width: 262.5px;
+height: 59.5px;
+background: transparent;
+ }
+
+.inferior
+{width: 487.5px;
+height: 257.19px;}
+
+.ladoder
+{width: 659.14px;
+    height: 583.27px;
+    background-color: transparent ;
+  float: right;
+  display:flex;
+  align-items: flex-start;
+  align-content: space-between;}
+
+
+
+.INF a
+{ 
+    padding: 1.25rem 1.5625rem;
+    background-color: #46845c;
+    color: #fff;
+    font-family: "cuadrosup";
+    letter-spacing: 0.3em;
+    text-decoration: none ;
+   
+    
+}
+
+.INF
+{margin-top: 90px;
+    
+}
+
+
 #contenido2
 {width: 1349px;
 height: 598.5px;
 background-color: #58a573; 
+margin: auto;
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+margin-top: 0px;
 
-padding: 2.5rem 0;
-margin: 0 0 5rem;
 }
 
+
+.banner
+{width: 1141.55px;
+height: 523.5px;
+background-color: #58a573; 
+margin: auto;
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.banner-content
+{width: 597.8px;
+height: 523.5px;
+background:  #58a573;
+}
+
+
+.grafica
+{width: 450px;
+height: 383.77px;
+background-color: #58a573; 
+float: left;
+}
+
+
+
+.cuadro6
+{width: 597.8px;
+    height: 110px;
+    background: #58a573;
+    font-size: 2rem;
+    line-height: 140%;
+    max-width: 41.25rem;
+    margin-top: 0;
+    font-family: 'Muli', sans-serif;
+    letter-spacing:0.05rem;
+    font-weight: 800;
+
+
+
+
+}
+
+.cuadro6 h3 
+{margin: 1.875rem 0 1.25rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.cuadro7 p
+{width: 597.8px;
+    height: 81px;
+    background:  #58a573;
+    font-size: 1.1rem;
+    max-width: 43.75rem;
+    line-height: 160%;
+    box-sizing: inherit;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+  
+    
+
+
+    
+    
+  
+    
+
+}
+.cuadro8 p
+{width: 597.8px;
+    height: 108px;
+    
+    background:  #58a573;
+    font-size: 1.1rem;
+    max-width: 43.75rem;
+    line-height: 160%;
+    box-sizing: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+
+
+
+
+}
+.cuadro9 
+{width: 262.5px;
+height: 59.5px;
+margin-top: 3.5rem;
+background-color: #232827;
+color: #fff;  
+font-size: 15px;
+font-family: sans-serif;
+    font-weight: bold; 
+    display: block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.3rem;
+   
+}
+
+.botons,.buttonlabel
+{text-decoration: none;
+    color: #fff;
+    opacity: 1; 
+
+
+}
+
+
+
+
 #contenido3
-{width: 1349px;
+{width: 1343px;
 height: 684.81px;
-background-color: teal ;
+background-color:#F1F1F1;
+display: flex;
+align-items: center;
 }
 #contenido4
 {width: 1281.55px;
 height: 232.19px;
-background-color:  whitesmoke ;
+background-color:  rgb(219, 214, 214) ;
 }
 
 #contenido5
